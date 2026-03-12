@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useok Kang | Public Profile</title>
     <link rel="stylesheet" href="css/style.css">
 </head> 
 <body>
     <nav class="navbar">
-        <div class="container" style="padding: 0 20px; display: flex; justify-content: space-between;">
-            <strong>USEOK KANG</strong>
+        <div class="container nav-inner">
+            <strong class="logo">USEOK KANG</strong>
             <div>
                 <a href="index.html" class="nav-link active">Home</a>
                 <a href="story.html" class="nav-link">Story</a>
@@ -17,20 +18,65 @@
         </div>
     </nav>
 
-    <div class="container" style="text-align: center;">
-        <img src="images/profile.jpg" alt="Profile" class="photo-circle" onerror="this.src='https://via.placeholder.com/250'">
-        <h1>Useok Kang</h1>
-        <p style="font-size: 1.2em; color: #666;">
-            Graduate of <strong>Chungbuk National University</strong> (B.S. in Computer Engineering) <br>
-            Seeking a <strong>Master's program</strong> in AI & Brain Engineering.
-        </p>
-        <div style="margin-top: 30px;">
-            <a href="https://github.com/MuHaRVEY" class="btn btn-dark">GitHub</a>
-            <a href="https://www.linkedin.com/in/useokkang0123" class="btn btn-primary">LinkedIn</a>
-            <a href="assets/Useok_Kang_CV.pdf" class="btn btn-dark" style="background: #fff; color: #333;">Download CV</a>
-        </div>
-    </div>
+    <main class="home-page">
+        <section class="container hero-section">
+            <div class="hero-card">
+                <img src="images/profile.jpg" alt="Useok Kang Profile" class="photo-circle">
+                
+                <p class="section-badge">PUBLIC PROFILE</p>
+                <h1>Useok Kang</h1>
+
+                <p class="hero-text">
+                    Graduate of <strong>Chungbuk National University</strong> (B.S. in Computer Engineering)
+                    with strong interests in <strong>AI-driven healthcare</strong>, <strong>brain engineering</strong>,
+                    and <strong>computational modeling</strong>.
+                </p>
+
+                <p class="hero-subtext">
+                    Currently preparing for a <strong>Master’s program</strong> in AI and Brain Engineering.
+                </p>
+
+                <div class="interest-tags">
+                    <span>AI Healthcare</span>
+                    <span>Brain Engineering</span>
+                    <span>Computational Modeling</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="https://github.com/MuHaRVEY" class="btn btn-dark" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/useokkang0123" class="btn btn-primary" target="_blank">LinkedIn</a>
+                    <a href="assets/Useok_Kang_CV.pdf" class="btn btn-light" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container summary-section">
+            <div class="summary-grid">
+                <div class="card summary-card">
+                    <h3>Academic Background</h3>
+                    <p>
+                        B.S. in Computer Engineering from Chungbuk National University,
+                        with exchange study experience at the University of Wolverhampton.
+                    </p>
+                </div>
+
+                <div class="card summary-card">
+                    <h3>Research & Projects</h3>
+                    <p>
+                        Interested in building AI systems that can support diagnosis,
+                        rehabilitation, and practical healthcare applications.
+                    </p>
+                </div>
+
+                <div class="card summary-card">
+                    <h3>Global Experience</h3>
+                    <p>
+                        Participated in international conferences, hackathons, and
+                        English presentations across Korea, the UK, and Thailand.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
-
 </html>
-
