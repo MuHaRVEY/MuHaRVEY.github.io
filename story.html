@@ -2,42 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useok Kang | My Story</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="container" style="padding: 0 20px; display: flex; justify-content: space-between;">
-            <strong>USEOK KANG</strong>
+        <div class="container nav-inner">
+            <strong class="logo">USEOK KANG</strong>
             <div>
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="story.html" class="nav-link">Story</a>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="story.html" class="nav-link active">Story</a>
                 <a href="academic.html" class="nav-link">Curriculum Vitae</a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <h2>The Turning Point</h2>
-        <img src="images/warwick.jpg" alt="EKC 2024 at Warwick" class="photo-landscape" onerror="this.src='https://via.placeholder.com/800x350?text=EKC+2024+at+University+of+Warwick'">
-        
-        <div class="card">
-            <h3 style="color: #007bff;">EKC 2024 at University of Warwick</h3>
-            <p>In 2024, I had the honor of receiving the <strong>Outstanding Poster Award</strong> at the Europe-Korea Conference (EKC) held at the University of Warwick. This was a pivotal moment in my life.</p>
-        </div>
+    <div class="container story-page">
+        <section class="story-hero">
+            <div class="story-header">
+                <p class="story-badge">MY STORY</p>
+                <h1>The Turning Point</h1>
+                <p class="story-subtitle">
+                    A moment that reshaped my academic direction and strengthened my goal
+                    of creating AI technologies that can truly help people.
+                </p>
+            </div>
 
-     <div class="card">
-            <h3 style="color: #007bff;">Creating AI for Human Impact</h3>
-            <p>I have always been deeply interested in utilizing AI to create practical solutions that help people. This passion led me to design and develop a diary-based mobile game for Alzheimer’s prevention. I had the privilege of presenting this project at ICCAS 2024 and later sharing it in English during a poster session at EKC 2024, held at the University of Warwick.</p>
-        </div>
+            <div class="photo-grid">
+                <div class="photo-card large">
+                    <img src="images/warwick.JPG" alt="Useok Kang at EKC 2024 in Warwick">
+                    <div class="photo-overlay">
+                        <span>Main Moment</span>
+                        <h3>EKC 2024 at University of Warwick</h3>
+                    </div>
+                </div>
 
-        <div class="card">
-            <h3 style="color: #007bff;">Motivation for Graduate Studies</h3>
-            <p>Initially, I had not considered pursuing a graduate degree. However, attending EKC 2024 at the University of Warwick became a turning point. While there, I had the opportunity to listen to the stories of Korean master's and Ph.D. students studying abroad, as well as receive valuable advice from professors. I realized that to truly achieve my goals and build the necessary expertise to create impactful technologies, I needed to further my education. This experience directly motivated my decision to apply for a <strong>Master's program</strong> in AI and Brain Engineering.</p>
-        </div>
+                <div class="photo-card">
+                    <img src="images/EKC.jpg" alt="EKC 2024 photo">
+                    <div class="photo-overlay">
+                        <span>Conference Memory</span>
+                        <h3>Another Scene from EKC 2024</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story-cards">
+            <div class="card highlight-card">
+                <h3>EKC 2024 at University of Warwick</h3>
+                <p>
+                    In 2024, I had the honor of receiving the <strong>Outstanding Poster Award</strong>
+                    at the Europe-Korea Conference (EKC) held at the University of Warwick.
+                    This became one of the most meaningful turning points in my life.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Creating AI for Human Impact</h3>
+                <p>
+                    I have always been deeply interested in using AI to create practical
+                    solutions that help people. This passion led me to design and develop
+                    a diary-based mobile game for Alzheimer’s prevention. I first presented
+                    this project at ICCAS 2024 and later introduced it in English during
+                    a poster session at EKC 2024.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Motivation for Graduate Studies</h3>
+                <p>
+                    At first, I had not seriously considered graduate school. However,
+                    attending EKC 2024 at the University of Warwick changed that. Listening
+                    to the stories of Korean master’s and Ph.D. students studying abroad,
+                    and receiving advice from professors, made me realize that I needed
+                    deeper knowledge and stronger research experience to build impactful
+                    technologies. That experience directly motivated my decision to pursue
+                    a <strong>Master’s program</strong> in AI and Brain Engineering.
+                </p>
+            </div>
+        </section>
     </div>
 </body>
-
 </html>
-
-
