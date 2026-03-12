@@ -2,69 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useok Kang | Academic</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="container" style="padding: 0 20px; display: flex; justify-content: space-between;">
-            <strong>USEOK KANG</strong>
+        <div class="container nav-inner">
+            <strong class="logo">USEOK KANG</strong>
             <div>
-                <a href="index.html" class="nav-link active">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="story.html" class="nav-link">Story</a>
-                <a href="academic.html" class="nav-link">Curriculum Vitae</a>
+                <a href="academic.html" class="nav-link active">Curriculum Vitae</a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <h2>Academic Portfolio</h2>
-        
-        <div class="card" style="border-left: 5px solid #28a745;">
-            <h3>🎓 Education</h3>
-            <p><strong>Chungbuk National University</strong><br>B.S. in Computer Engineering | <strong>GPA: 4.32 / 4.5</strong></p>
-            <p style="color: #666; font-size: 0.9em;">Exchange Student: University of Wolverhampton, UK (Sep 2025 – Jan 2026)</p>
-        </div>
+    <div class="container academic-page">
+        <section class="page-header">
+            <p class="section-badge">ACADEMIC PROFILE</p>
+            <h1>Academic Portfolio</h1>
+            <p class="page-subtitle">
+                My academic background, research experience, awards, global activities,
+                and technical skills.
+            </p>
+        </section>
 
-        <div class="card" style="border-left: 5px solid #007bff;">
-            <h3>🔬 Research Experience</h3>
-            <p><strong>KAIST (Computational Cognitive Neuroscience of Brains and AI Systems Under Uncertainty Lab)</strong> | Research Intern<br>
-            <span style="color: #666; font-size: 0.9em;">July 2025 – September 2025</span></p>
-            <ul style="line-height: 1.8;">
-                <li>Studied and analyzed the lab's existing Drift Diffusion Model (DDM) code used for human sleep prediction.</li>
-                <li>Converted rodent sleep data into the lab's DDM-compatible format for model input.</li>
-                <li>Processed existing Fitbit data, transforming and saving it into spreadsheets to ensure compatibility with the model.</li>
-                <li>Visualized model outputs with separate plots to analyze the results.</li>
-            </ul>
-        </div>
+        <section class="academic-grid">
+            <div class="card academic-card accent-green">
+                <h3>Education</h3>
+                <p>
+                    <strong>Chungbuk National University</strong><br>
+                    B.S. in Computer Engineering
+                </p>
+                <p class="meta-text"><strong>GPA:</strong> 4.32 / 4.5</p>
+                <p class="meta-text">
+                    Exchange Student, University of Wolverhampton, UK
+                    (Sep 2025 – Jan 2026)
+                </p>
+            </div>
 
-        <div class="card" style="border-left: 5px solid #17a2b8;">
-            <h3>🌍 Global Activities & Engagement</h3>
-            <ul style="line-height: 1.8;">
-                <li><strong>Certificate of Completion</strong> – K-CAMT 2024 HACKATHON for Net-Zero Carbon and Energy<br>
-                <span style="color: #666; font-size: 0.9em;">Participated in the hackathon held at Chiang Mai University, Thailand, and delivered a project presentation in English.</span></li>
-                <li><strong>Certificate of Completion</strong> – EKC 2024 Science School Session<br>
-                <span style="color: #666; font-size: 0.9em;">Served as a volunteer mentoring Korean-British youth during the conference in the UK.</span></li>
-            </ul>
-        </div>
+            <div class="card academic-card accent-blue">
+                <h3>Research Experience</h3>
+                <p>
+                    <strong>KAIST</strong><br>
+                    Computational Cognitive Neuroscience of Brains and AI Systems Under Uncertainty Lab<br>
+                    Research Intern
+                </p>
+                <p class="meta-text">July 2025 – September 2025</p>
+                <ul class="clean-list">
+                    <li>Studied and analyzed the lab’s existing Drift Diffusion Model (DDM) code for human sleep prediction.</li>
+                    <li>Converted rodent sleep data into a DDM-compatible format for model input.</li>
+                    <li>Processed Fitbit data and organized it into spreadsheet format for compatibility with the model.</li>
+                    <li>Visualized model outputs with separate plots to analyze the results.</li>
+                </ul>
+            </div>
 
-        <div class="card" style="border-left: 5px solid #ffc107;">
-            <h3>🏆 Awards & Projects</h3>
-            <ul style="line-height: 1.8;">
-                <li><strong>Outstanding Poster Award</strong> – EKC(Europe-Korea Conference on Science and Technology) 2024, Life Science and Health Section, "Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection"</li>
-                <li><strong>Gold Award</strong> – CEDC(Creative Engineering Design Competition) 2024, "Stroke Rehabilitation and Prevention through Hamburger Game"</li>
-                <li><strong>Silver Award</strong> – ICCAS(International Collegiate Challenge for AI-Assisted Society) 2024, "Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection"</li>
-            </ul>
-        </div>
+            <div class="card academic-card accent-cyan">
+                <h3>Global Activities & Engagement</h3>
+                <ul class="clean-list">
+                    <li>
+                        <strong>Certificate of Completion</strong> – K-CAMT 2024 Hackathon for Net-Zero Carbon and Energy
+                        <span class="list-note">
+                            Participated in the hackathon at Chiang Mai University, Thailand,
+                            and delivered a project presentation in English.
+                        </span>
+                    </li>
+                    <li>
+                        <strong>Certificate of Completion</strong> – EKC 2024 Science School Session
+                        <span class="list-note">
+                            Served as a volunteer mentoring Korean-British youth during the conference in the UK.
+                        </span>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="card" style="border-left: 5px solid #6c757d;">
-            <h3>💻 Technical Skills</h3>
-            <p><strong>Programming:</strong> Python, Unity, C/C++, Kotlin <br>
-            <strong>Languages:</strong> English (TOEIC 855 / TOEIC Speaking 150)</p>
-        </div>
+            <div class="card academic-card accent-yellow">
+                <h3>Awards & Projects</h3>
+                <ul class="clean-list">
+                    <li>
+                        <strong>Outstanding Poster Award</strong> – EKC 2024, Life Science and Health Section<br>
+                        <span class="list-note">“Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection”</span>
+                    </li>
+                    <li>
+                        <strong>Gold Award</strong> – CEDC 2024<br>
+                        <span class="list-note">“Stroke Rehabilitation and Prevention through Hamburger Game”</span>
+                    </li>
+                    <li>
+                        <strong>Silver Award</strong> – ICCAS 2024<br>
+                        <span class="list-note">“Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection”</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card academic-card accent-gray full-width">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div>
+                        <p><strong>Programming</strong></p>
+                        <p class="meta-text">Python, C/C++, Kotlin</p>
+                    </div>
+                    <div>
+                        <p><strong>Languages</strong></p>
+                        <p class="meta-text">English (TOEIC 855 / TOEIC Speaking 150)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
-
 </html>
-
-
