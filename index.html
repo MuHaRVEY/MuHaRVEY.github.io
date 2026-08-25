@@ -1,82 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Useok Kang | Public Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Useok Kang is an M.S. student at POSTECH researching diffusion and flow-matching models for clinically grounded medical AI.">
+    <meta property="og:title" content="Useok Kang | Medical AI Researcher">
+    <meta property="og:description" content="Generative modeling, medical imaging, and clinically grounded AI.">
+    <meta property="og:type" content="website">
+    <title>Useok Kang | Medical AI Researcher</title>
     <link rel="stylesheet" href="css/style.css">
-</head> 
+</head>
 <body>
-    <nav class="navbar">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
         <div class="container nav-inner">
-            <strong class="logo">USEOK KANG</strong>
-            <div>
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="story.html" class="nav-link">Story</a>
-                <a href="academic.html" class="nav-link">Curriculum Vitae</a>
-            </div>
+            <a class="wordmark" href="index.html" aria-label="Useok Kang home">Useok Kang</a>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html" aria-current="page">About</a>
+                <a href="research.html">Research</a>
+                <a href="academic.html">CV</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main class="home-page">
-        <section class="container hero-section">
-            <div class="hero-card">
-                <img src="images/profile.jpg" alt="Useok Kang Profile" class="photo-circle">
-                
-                <p class="section-badge">PUBLIC PROFILE</p>
+    <main id="main">
+        <section class="hero container">
+            <div class="hero-copy">
+                <p class="eyebrow">POSTECH · Computer Science and Engineering</p>
                 <h1>Useok Kang</h1>
-
-                <p class="hero-text">
-                    Graduate of <strong>Chungbuk National University</strong> (B.S. in Computer Engineering)
-                    with strong interests in <strong>AI-driven healthcare</strong>, <strong>brain engineering</strong>,
-                    and <strong>computational modeling</strong>.
+                <p class="hero-role">M.S. student researching generative models for medical imaging.</p>
+                <p class="hero-description">
+                    I study diffusion and flow-matching methods that are not only visually plausible,
+                    but also clinically grounded and interpretable. My current work focuses on
+                    patient-specific brain MRI generation under explicit clinical assumptions.
                 </p>
-
-                <p class="hero-subtext">
-                    Currently preparing for a <strong>Master’s program</strong> in AI and Brain Engineering.
-                </p>
-
-                <div class="interest-tags">
-                    <span>AI Healthcare</span>
-                    <span>Brain Engineering</span>
-                    <span>Computational Modeling</span>
+                <div class="actions" aria-label="Profile links">
+                    <a class="button button-primary" href="research.html">View research</a>
+                    <a class="button button-secondary" href="academic.html">Curriculum vitae</a>
                 </div>
+                <div class="text-links">
+                    <a href="https://github.com/MuHaRVEY" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                    <a href="https://www.linkedin.com/in/useokkang0123" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
 
-                <div class="hero-buttons">
-                    <a href="https://github.com/MuHaRVEY" class="btn btn-dark" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/useokkang0123" class="btn btn-primary" target="_blank">LinkedIn</a>
-                    <a href="assets/Useok_Kang_CV.pdf" class="btn btn-light" target="_blank">Download CV</a>
+            <figure class="portrait-wrap">
+                <img src="images/profile.jpg" alt="Portrait of Useok Kang" class="portrait">
+                <figcaption>Medical AI · Generative Modeling</figcaption>
+            </figure>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="section-index">01</p>
+                <h2>About</h2>
+            </div>
+            <div class="section-content about-grid">
+                <p class="lead">
+                    My research asks how generative models can represent meaningful clinical change,
+                    rather than simply edit the appearance of a medical image.
+                </p>
+                <div class="body-copy">
+                    <p>
+                        I am an M.S. student in Computer Science and Engineering at POSTECH. I received
+                        my B.S. in Computer Engineering from Chungbuk National University and studied
+                        as an exchange student at the University of Wolverhampton.
+                    </p>
+                    <p>
+                        My long-term goal is to develop AI systems that help clinicians reason about
+                        disease progression, intervention, and patient-specific futures with clearer
+                        evidence and stronger structural consistency.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="container summary-section">
-            <div class="summary-grid">
-                <div class="card summary-card">
-                    <h3>Academic Background</h3>
-                    <p>
-                        B.S. in Computer Engineering from Chungbuk National University,
-                        with exchange study experience at the University of Wolverhampton.
-                    </p>
-                </div>
+        <section class="section container">
+            <div class="section-heading">
+                <p class="section-index">02</p>
+                <h2>Research interests</h2>
+            </div>
+            <div class="section-content interest-list">
+                <article class="interest-item">
+                    <p class="interest-number">01</p>
+                    <h3>Diffusion &amp; Flow Matching</h3>
+                    <p>Efficient generative modeling for longitudinal and counterfactual medical imaging.</p>
+                </article>
+                <article class="interest-item">
+                    <p class="interest-number">02</p>
+                    <h3>Clinically Grounded AI</h3>
+                    <p>Conditioning models with structured expert knowledge, regional priors, and clinical variables.</p>
+                </article>
+                <article class="interest-item">
+                    <p class="interest-number">03</p>
+                    <h3>Explainable Medical AI</h3>
+                    <p>Connecting generated outcomes to interpretable assumptions and measurable anatomical change.</p>
+                </article>
+            </div>
+        </section>
 
-                <div class="card summary-card">
-                    <h3>Research & Projects</h3>
+        <section class="section container">
+            <div class="section-heading">
+                <p class="section-index">03</p>
+                <h2>Selected work</h2>
+            </div>
+            <div class="section-content project-list">
+                <article class="project-row">
+                    <div>
+                        <p class="project-year">2026 — Present</p>
+                        <h3>Expert-informed counterfactual brain MRI generation</h3>
+                    </div>
                     <p>
-                        Interested in building AI systems that can support diagnosis,
-                        rehabilitation, and practical healthcare applications.
+                        Exploring how clinician input can be translated into structured, region-wise priors
+                        for patient-specific follow-up generation with spatiotemporal consistency.
                     </p>
-                </div>
-
-                <div class="card summary-card">
-                    <h3>Global Experience</h3>
+                </article>
+                <article class="project-row">
+                    <div>
+                        <p class="project-year">2026</p>
+                        <h3>Longitudinal brain MRI conditioning analysis</h3>
+                    </div>
                     <p>
-                        Participated in international conferences, hackathons, and
-                        English presentations across Korea, the UK, and Thailand.
+                        Reproduced age- and diagnosis-conditioned MRI generation and studied regional
+                        trajectories, ControlNet ablations, and clinically meaningful input forms.
                     </p>
-                </div>
+                </article>
+                <article class="project-row">
+                    <div>
+                        <p class="project-year">2024</p>
+                        <h3>Human-centered AI for rehabilitation</h3>
+                    </div>
+                    <p>
+                        Built award-winning prototypes for Alzheimer’s prevention and stroke rehabilitation
+                        using mobile AI, speech recognition, and EMG interaction.
+                    </p>
+                </article>
+                <a class="inline-link" href="research.html">Read about my research direction <span aria-hidden="true">→</span></a>
             </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Useok Kang</p>
+            <p>Medical AI · Generative Modeling · POSTECH</p>
+        </div>
+    </footer>
 </body>
 </html>
