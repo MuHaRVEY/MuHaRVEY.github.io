@@ -1,114 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Useok Kang | Academic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curriculum vitae of Useok Kang, an M.S. student at POSTECH.">
+    <title>Curriculum Vitae | Useok Kang</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
         <div class="container nav-inner">
-            <strong class="logo">USEOK KANG</strong>
-            <div>
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="story.html" class="nav-link">Story</a>
-                <a href="academic.html" class="nav-link active">Curriculum Vitae</a>
-            </div>
+            <a class="wordmark" href="index.html" aria-label="Useok Kang home">Useok Kang</a>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">About</a>
+                <a href="research.html">Interests &amp; Experience</a>
+                <a href="academic.html" aria-current="page">CV</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <div class="container academic-page">
-        <section class="page-header">
-            <p class="section-badge">ACADEMIC PROFILE</p>
-            <h1>Academic Portfolio</h1>
-            <p class="page-subtitle">
-                My academic background, research experience, awards, global activities,
-                and technical skills.
-            </p>
+    <main id="main" class="container page-main cv-page">
+        <header class="page-intro cv-intro">
+            <div>
+                <p class="eyebrow">Curriculum vitae</p>
+                <h1>Useok Kang</h1>
+                <p>M.S. Student in Computer Science and Engineering at POSTECH</p>
+                <p class="affiliation compact">
+                    <a href="https://medicalai.postech.ac.kr/home" target="_blank" rel="noreferrer">Medical AI Lab</a>
+                    <span aria-hidden="true">·</span>
+                    Advisor:
+                    <a href="https://scholar.google.com/citations?user=PHLTD4sAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Prof. Sang Hyun Park</a>
+                </p>
+            </div>
+            <div class="cv-links">
+                <a href="https://github.com/MuHaRVEY" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/useokkang0123" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            </div>
+        </header>
+
+        <section class="cv-section">
+            <h2>Education</h2>
+            <div class="cv-entries">
+                <article class="cv-entry">
+                    <div class="cv-date">Sep 2026 — Present</div>
+                    <div>
+                        <h3>Pohang University of Science and Technology (POSTECH)</h3>
+                        <p>M.S. in Computer Science and Engineering</p>
+                        <p class="muted"><a href="https://medicalai.postech.ac.kr/home" target="_blank" rel="noreferrer">Medical AI Lab</a> · Advisor: <a href="https://scholar.google.com/citations?user=PHLTD4sAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Prof. Sang Hyun Park</a></p>
+                    </div>
+                </article>
+                <article class="cv-entry">
+                    <div class="cv-date">Feb 2026</div>
+                    <div>
+                        <h3>Chungbuk National University</h3>
+                        <p>B.S. in Computer Engineering · GPA 4.32 / 4.5</p>
+                    </div>
+                </article>
+                <article class="cv-entry">
+                    <div class="cv-date">Sep 2025 — Jan 2026</div>
+                    <div>
+                        <h3>University of Wolverhampton, United Kingdom</h3>
+                        <p>Exchange Student</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <section class="academic-grid">
-            <div class="card academic-card accent-green">
-                <h3>Education</h3>
-                <p>
-                    <strong>Chungbuk National University</strong><br>
-                    B.S. in Computer Engineering
-                </p>
-                <p class="meta-text"><strong>GPA:</strong> 4.32 / 4.5</p>
-                <p class="meta-text">
-                    Exchange Student, University of Wolverhampton, UK
-                    (Sep 2025 – Jan 2026)
-                </p>
-            </div>
-
-            <div class="card academic-card accent-blue">
-                <h3>Research Experience</h3>
-                <p>
-                    <strong>KAIST</strong><br>
-                    Computational Cognitive Neuroscience of Brains and AI Systems Under Uncertainty Lab<br>
-                    Research Intern
-                </p>
-                <p class="meta-text">July 2025 – September 2025</p>
-                <ul class="clean-list">
-                    <li>Studied and analyzed the lab’s existing Drift Diffusion Model (DDM) code for human sleep prediction.</li>
-                    <li>Converted rodent sleep data into a DDM-compatible format for model input.</li>
-                    <li>Processed Fitbit data and organized it into spreadsheet format for compatibility with the model.</li>
-                    <li>Visualized model outputs with separate plots to analyze the results.</li>
-                </ul>
-            </div>
-
-            <div class="card academic-card accent-cyan">
-                <h3>Global Activities & Engagement</h3>
-                <ul class="clean-list">
-                    <li>
-                        <strong>Certificate of Completion</strong> – K-CAMT 2024 Hackathon for Net-Zero Carbon and Energy
-                        <span class="list-note">
-                            Participated in the hackathon at Chiang Mai University, Thailand,
-                            and delivered a project presentation in English.
-                        </span>
-                    </li>
-                    <li>
-                        <strong>Certificate of Completion</strong> – EKC 2024 Science School Session
-                        <span class="list-note">
-                            Served as a volunteer mentoring Korean-British youth during the conference in the UK.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card academic-card accent-yellow">
-                <h3>Awards & Projects</h3>
-                <ul class="clean-list">
-                    <li>
-                        <strong>Outstanding Poster Award</strong> – EKC 2024, Life Science and Health Section<br>
-                        <span class="list-note">“Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection”</span>
-                    </li>
-                    <li>
-                        <strong>Gold Award</strong> – CEDC 2024<br>
-                        <span class="list-note">“Stroke Rehabilitation and Prevention through Hamburger Game”</span>
-                    </li>
-                    <li>
-                        <strong>Silver Award</strong> – ICCAS 2024<br>
-                        <span class="list-note">“Alzheimer’s Prevention Mobile Game App using AI and Self-Reflection”</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="card academic-card accent-gray full-width">
-                <h3>Technical Skills</h3>
-                <div class="skills-grid">
-                    <div>
-                        <p><strong>Programming</strong></p>
-                        <p class="meta-text">Python, C/C++, Kotlin</p>
-                    </div>
-                    <div>
-                        <p><strong>Languages</strong></p>
-                        <p class="meta-text">English (TOEIC 855 / TOEIC Speaking 150)</p>
-                    </div>
-                </div>
+        <section class="cv-section">
+            <h2>Research interests</h2>
+            <div class="skills-list">
+                <div><h3>Generative Models</h3><p>Diffusion models and flow matching</p></div>
+                <div><h3>Medical AI</h3><p>Clinically grounded AI systems and medical image generation</p></div>
+                <div><h3>Explainable AI</h3><p>Interpretable model behavior and outputs</p></div>
             </div>
         </section>
-    </div>
+
+        <section class="cv-section">
+            <h2>Research experience</h2>
+            <div class="cv-entries">
+                <article class="cv-entry">
+                    <div class="cv-date">Jul — Sep 2025</div>
+                    <div>
+                        <h3>Research Intern, KAIST</h3>
+                        <p>Computational Cognitive Neuroscience of Brains and AI Systems Under Uncertainty Lab</p>
+                        <ul>
+                            <li>Studied an existing Drift Diffusion Model pipeline for sleep prediction.</li>
+                            <li>Prepared rodent sleep and Fitbit data for model input.</li>
+                            <li>Visualized model outputs for analysis.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Projects &amp; awards</h2>
+            <div class="cv-entries">
+                <article class="cv-entry">
+                    <div class="cv-date">2024</div>
+                    <div>
+                        <h3>Alzheimer’s Prevention Mobile Game</h3>
+                        <p>Silver Award, ICCAS 2024 · Outstanding Poster Award, EKC 2024</p>
+                        <p class="muted">Presented at the University of Warwick, United Kingdom.</p>
+                    </div>
+                </article>
+                <article class="cv-entry">
+                    <div class="cv-date">2024</div>
+                    <div>
+                        <h3>Stroke Rehabilitation and Prevention through Hamburger Game</h3>
+                        <p>Gold Award, CEDC 2024</p>
+                        <p class="muted">Speech-to-text and EMG-based rehabilitation interaction.</p>
+                    </div>
+                </article>
+                <article class="cv-entry">
+                    <div class="cv-date">2024</div>
+                    <div>
+                        <h3>K-CAMT Net-Zero Carbon and Energy Hackathon</h3>
+                        <p>Participant · Chiang Mai University, Thailand</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cv-section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div><h3>Programming</h3><p>Python, PyTorch, C/C++, Kotlin</p></div>
+                <div><h3>Development</h3><p>Unity, Android, Arduino, Git, Docker</p></div>
+                <div><h3>Languages</h3><p>Korean (native), English (working proficiency)</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Useok Kang</p>
+            <p>Last updated August 2026</p>
+        </div>
+    </footer>
 </body>
 </html>
