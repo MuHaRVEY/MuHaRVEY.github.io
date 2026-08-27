@@ -112,7 +112,7 @@ img { max-width: 100%; }
 }
 
 .profile-hero {
-    padding-block: 48px 90px;
+    padding-block: 48px 20px;
 }
 
 .profile-heading {
@@ -199,7 +199,7 @@ img { max-width: 100%; }
 .story-copy .story-lead {
     color: var(--ink);
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(1.45rem, 2.8vw, 2rem);
+    font-size: clamp(1.2rem, 2.0vw, 1.3rem);
     line-height: 1.42;
 }
 
@@ -452,14 +452,14 @@ img { max-width: 100%; }
 }
 
 .site-footer {
-    padding-block: 30px;
+    padding-block: 10px;
     border-top: 1px solid var(--line);
 }
 
 .footer-inner {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 10px;
 }
 
 .footer-inner p {
