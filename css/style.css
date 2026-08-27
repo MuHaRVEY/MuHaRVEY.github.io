@@ -111,9 +111,13 @@ img { max-width: 100%; }
     text-transform: uppercase;
 }
 
-.profile-hero { padding-block: 92px 100px; }
+.profile-hero {
+    padding-block: 48px 90px;
+}
 
-.profile-heading { margin-bottom: 46px; }
+.profile-heading {
+    margin-bottom: 28px;
+}
 
 .profile-heading h1 {
     margin: 12px 0 10px;
@@ -126,7 +130,7 @@ img { max-width: 100%; }
 .profile-heading h1 strong { font-weight: 760; }
 
 .role {
-    margin: 24px 0 0;
+    margin: 0;
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(1.3rem, 2.7vw, 2rem);
     line-height: 1.35;
@@ -140,6 +144,7 @@ img { max-width: 100%; }
     color: var(--muted);
 }
 
+.role a,
 .affiliation a,
 .story-copy a,
 .cv-entry a { color: var(--accent-dark); }
@@ -152,7 +157,7 @@ img { max-width: 100%; }
 .profile-layout {
     display: grid;
     grid-template-columns: minmax(270px, 0.72fr) minmax(0, 1.55fr);
-    gap: 62px;
+    gap: 50px;
     align-items: start;
 }
 
@@ -186,7 +191,7 @@ img { max-width: 100%; }
 }
 
 .story-copy p {
-    margin: 0 0 20px;
+    margin: 0 0 16px;
     color: var(--muted);
     font-size: 1.03rem;
 }
@@ -202,8 +207,8 @@ img { max-width: 100%; }
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
-    margin-top: 28px;
-    padding-top: 24px;
+    margin-top: 20px;
+    padding-top: 18px;
     border-top: 1px solid var(--line);
 }
 
